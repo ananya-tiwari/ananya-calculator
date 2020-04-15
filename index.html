@@ -2,13 +2,19 @@
 <html>
 
 <head>
-	<title>Html</title>
+	<title>Cell that spans two columns</title>
 	<style>
 		table,
 		th,
-		td  {
+		td {
 			border: 1px solid black;
-			border-collapse:collapse
+			border-collapse: collapse;
+		}
+
+		th,
+		td {
+			padding: 5px;
+			textalign: left;
 		}
 	</style>
 
@@ -16,32 +22,22 @@
 
 <body>
 	<u>
-		<h2>Bacic HTML Table</h2>
+		<h2>Cell that spans two columns</h2>
 	</u>
-
 	<table style="width:100%">
 		<tr>
-			<th>Firstname</th>
-			<th>
-				Lastname
-			</th>
-			<th>Age</th>
+			<th>Name</th>
+			
+			
+			
+			<th colspan="2">Telephone</th>
 		</tr>
 		<tr>
-			<td>Jill</td>
-			<td>Smith</td>
-			<td>13</td>
+			<td>Bill Gates</td>
+			<td>04079954</td>
+			<td>9950967</td>
 		</tr>
-		<tr>
-			<td>Eve</td>
-			<td>Jackson</td>
-			<td>20</td>
-		</tr>
-		<tr>
-			<td>John</td>
-			<td>Doe</td>
-			<td>15</td>
-		</tr>
+		
 
 	</table>
 
